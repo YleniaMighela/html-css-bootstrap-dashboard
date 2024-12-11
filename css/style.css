@@ -21,3 +21,18 @@ img{
 nav{
     height:80px;
 }
+
+/* regole table */
+table{
+    margin-top:20px;
+}
+button{
+    color:white;
+}
+
+i{
+    color:#6c757d;
+    border: 1px solid #6c757d;
+    border-radius:10%;
+    padding:5px;
+}
