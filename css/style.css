@@ -1,3 +1,18 @@
+/* REGOLE DI DEBUG */
+
+
+[class^='row']{
+    /* background-color: blueviolet; */
+}
+
+[class^='col'] {
+    /* background-color: goldenrod; */
+    /* border: 1px solid black; */
+}
+
+
+
+
 /* regole header */
 img{
     width:50px;
