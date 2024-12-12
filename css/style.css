@@ -13,6 +13,20 @@
 
 
 
+
+/* regole generali */
+
+body{
+    font-family: Roboto;
+}
+
+
+
+
+
+
+
+
 /* regole header */
 img{
     width:50px;
@@ -21,6 +35,9 @@ img{
 nav{
     height:80px;
 }
+
+
+
 
 /* regole table */
 table{
