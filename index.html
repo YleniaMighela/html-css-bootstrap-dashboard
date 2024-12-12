@@ -19,26 +19,33 @@
 
 
 <body>
-    <!-- Contenuto navbar -->
+    <!-- CONTENUTO NAVBAR -->
     <header>
         <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
             <div class="container-fluid">
+
+                <!-- logo -->
                 <a class="navbar-brand" href="#"> <img src="./img/duck.png" alt="logo"></a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
+
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">Anagrafica Utenti</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">Storico prezzi</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">Help</a>
                         </li> 
@@ -47,26 +54,27 @@
                     <!-- ricerca -->
                     <form class="d-flex" role="search" data-bs-theme="light">
                         <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
-                        <button class="btn btn btn-outline-dark" type="submit">Cerca</button>
+                        <button class="btn btn-outline-success" type="submit">Cerca</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
+
     
     <!-- CONTENUTO PRINCIPALE -->
     <main>
         <div class="container-fluid">
             
             <!-- PRIMA RIGA (CATALOGO) -->
-            <div class="row">
+            <div class="row py-3">
                 <div class="col">
-                    <h4 class="margin">Catalogo libri</h4>
+                    <h4 >Catalogo libri</h4>
                 </div>
                 
                 <div class="col">  
-                    <div class="d-grid gap-2 d-md-flex justify-content-end" class="margin">
-                        <button type="button" class="btn btn-primary" >
+                    <div class="d-grid gap-2 d-md-flex justify-content-end" >
+                        <button type="button" class="btn btn-primary">
                             Aggiungi libro
                         </button>
                     </div>
@@ -85,7 +93,7 @@
                                 <th scope="col">Titolo</th>
                                 <th scope="col " class="d-none d-md-table-cell"> Data Prestito</th>
                                 <th scope="col">Stato</th>
-                                <th scope="col">Azioni</th>
+                                <th scope="col-3">Azioni</th>
                             </tr>
                         </thead>
                         
@@ -97,7 +105,7 @@
                                 <td>
                                     <span class="badge text-bg-success">Disponibile</span>
                                 </td>
-                                <td>
+                                <td class="col-3">
                                     <a class="nav-link" href="#">
                                         <i class="fa-solid fa-pen"></i>
                                         <i class="fa-solid fa-trash"></i>

@@ -14,7 +14,7 @@
 
 
 
-/* regole generali */
+/* REGOLE GENERALI */
 
 body{
     font-family: Roboto;
@@ -27,8 +27,8 @@ body{
 
 
 
-/* regole header */
-img{
+/* REGOLE HEADER */
+header img{
     width:50px;
 }
 
@@ -36,13 +36,13 @@ nav{
     height:80px;
 }
 
-
+.btn-outline-success{
+    color:white;
+    --bs-btn-border-color:white;
+}
 
 /* REGOLE CONTENUTO PRINCIPALE */
 
-.margin{
-    margin-top:20px;
-}
 
 
 
@@ -52,8 +52,7 @@ nav{
 
 
 
-
-/* regole table */
+/* REGOLE TABLE*/
 table{
     margin-top:20px;
 }
