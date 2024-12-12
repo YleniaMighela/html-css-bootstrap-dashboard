@@ -61,12 +61,12 @@
             <!-- PRIMA RIGA (CATALOGO) -->
             <div class="row">
                 <div class="col">
-                    <h4>Catalogo libri</h4>
+                    <h4 class="margin">Catalogo libri</h4>
                 </div>
                 
                 <div class="col">  
-                    <div class="d-grid gap-2 d-md-flex justify-content-end">
-                        <button type="button" class="btn btn-primary">
+                    <div class="d-grid gap-2 d-md-flex justify-content-end" class="margin">
+                        <button type="button" class="btn btn-primary" >
                             Aggiungi libro
                         </button>
                     </div>
@@ -296,11 +296,17 @@
                         <div class="card-body text-secondary" >
                             <ul class="list-group ">
                                 <li class="list-group-item">
-                                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                                 <label for=""> Chiamare segreteria</label>
+                                    <input class="form-check-input" type="checkbox" value="" >
+                                 <label for="prima-checkbox"> Chiamare segreteria</label>
                                 </li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input" type="checkbox" value="" >
+                                    <label for="seconda-checkbox">Mandare avvisi prestiti scaduyti</label>
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input" type="checkbox" value="" >
+                                    <label for="seconda-checkbox">Ordinare nuovi libri</label>
+                                </li>
                             </ul>
                         </div>
                     </div>
