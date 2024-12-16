@@ -55,89 +55,97 @@
         </nav>
     </header>
     
-    <!-- CONTENUTO PRINCIPALE -->
-    <div class="container">
-        
-        <!-- Titoletto -->
-        <div class="row py-3">
-            <div class="col">
-                <h4>Nuovo libro</h4>
-            </div>
-        </div>
-        
-        
-        
-        <!-- CONTENUTO FORM -->
-        <form class="row g-3">
+    <main>
+        <!-- CONTENUTO PRINCIPALE -->
+        <div class="container">
             
-            <!-- Sezione profilo utente -->
-            <div class="col-6">
-                <label for="inputText" class="form-label">Nome Autore</label>
-                <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore" aria-label="Username">
-            </div>
-            
-            
-            <div class="col-6">
-                <label for="inputText" class="form-label">Cognome Autore</label>
-                <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore" aria-label="lastname">
+            <!-- Titoletto -->
+            <div class="row py-3">
+                <div class="col">
+                    <h4>Nuovo libro</h4>
+                </div>
             </div>
             
             
             
-            <!-- Sezione titolo  -->
-            <div class="col-12">
-                <label for="inputText" class="form-label">Titolo</label>
-                <input type="text" class="form-control" placeholder="Inserisci il titolo del libro" aria-label="titolo">
-                <p>Titolo versione italiana</p>
-            </div>
-            
-            
-            <!-- Sezione genere -->
-            <div class= "col-12 col-lg-4">
-                <label for="inputText" class="form-label">Genere</label>
-                <select class="form-select" aria-label="genere">
-                    <option selected>Scegli il genere</option>
-                    <option value="1">Uomo</option>
-                    <option value="2">Donna</option>
-                    <option value="3">Bambino</option>
-                </select>
-            </div>
-            
-            
-            <!-- Sezione anno di pubblicazione -->
-            <div class="col-12 col-lg-4">
-                <label for="inputText" class="form-label">Anno di pubblicazione</label>
-                <input type="text" class="form-control" placeholder="Inserisci l'anno" aria-label="anno">
-            </div>
-            
-            
-            <!-- Sezione codice ISBN#-->
-            <div class="col-12 col-lg-4">
-                <label for="inputText" class="form-label">ISBN#</label>
-                <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" aria-label="isbn#">
-            </div>
-            
-            <!-- Sezione note -->
-            <hr>
-            <div class="col-12">
-                <label for="inputText">Note</label>
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Inserisci eventuali note sul libro</label>
-                </div>    
-            </div>
-            
-            <!-- Sezione checkbox -->
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Disponibile anche in digitale
-                    </label>
-                    
+            <!-- CONTENUTO FORM -->
+            <form class="row g-3">
+                
+                <!-- Sezione profilo utente -->
+                <div class="col-6">
+                    <label for="inputText" class="form-label">Nome Autore</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore" aria-label="Username">
                 </div>
                 
                 
+                <div class="col-6">
+                    <label for="inputText" class="form-label">Cognome Autore</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore" aria-label="lastname">
+                </div>
+                
+                
+                
+                <!-- Sezione titolo  -->
+                <div class="col-12">
+                    <label for="inputText" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il titolo del libro" aria-label="titolo">
+                    <p>Titolo versione italiana</p>
+                </div>
+                
+                
+                <!-- Sezione genere -->
+                <div class= "col-12 col-lg-4">
+                    <label for="inputText" class="form-label">Genere</label>
+                    <select class="form-select" aria-label="genere">
+                        <option selected>Scegli il genere</option>
+                        <option value="1">Uomo</option>
+                        <option value="2">Donna</option>
+                        <option value="3">Bambino</option>
+                    </select>
+                </div>
+                
+                
+                <!-- Sezione anno di pubblicazione -->
+                <div class="col-12 col-lg-4">
+                    <label for="inputText" class="form-label">Anno di pubblicazione</label>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno" aria-label="anno">
+                </div>
+                
+                
+                <!-- Sezione codice ISBN#-->
+                <div class="col-12 col-lg-4">
+                    <label for="inputText" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" aria-label="isbn#">
+                </div>
+                
+                <!-- Sezione note -->
+                <hr>
+                <div class="col-12">
+                    <label for="inputText">Note</label>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Inserisci eventuali note sul libro</label>
+                    </div>    
+                </div>
+                
+                <!-- Sezione checkbox -->
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Disponibile anche in digitale
+                        </label>
+                    </div>
+                </div>  
+                
+                <!-- Sezione aggiungi libro-->
+                <div class="col-12 py-3">
+                    <button class="btn btn-primary" type="submit">Aggiungi libro</button>
+                </div>
+                
             </form>
-            
-        </body>
+        </div>  
+    </main>
+    
+    
+</body>
